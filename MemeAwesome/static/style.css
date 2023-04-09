@@ -196,6 +196,28 @@ main .main-container .battery .row-12 {
     color: #fff;
     border-bottom: 2px solid #fafafa;
 }
+main footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background: #fafafa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main footer input {
+    padding: 10px 20px;
+    border: 2px solid #000000;
+    background: #fff;
+    color: #000000;
+    font-size: 18px;
+    cursor: pointer;
+}
+main footer input:hover {
+    background: #000000;
+    color: #fff;
+}
 body {
     position: relative;
     height: 100vh;
